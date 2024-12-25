@@ -1,0 +1,24 @@
+.text01{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: goldenrod;
+    /* padding-top:clamp (16px, 2vw, 3rem); */
+    font-size: clamp(12px, 1vw, 30px);
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    padding-top: 2rem;
+}
+.text02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: clamp(0.5rem, 3%, 1rem);
+    font-size: clamp(25px, 5vw, 50px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
+.clr{
+    padding-top: 10rem;
+    background-color: lightgoldenrodyellow;
+}
